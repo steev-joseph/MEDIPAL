@@ -1,6 +1,33 @@
-
+.env
 .codegpt
 lib
 scripts
 README.md
 chatbot_model.h5
+lib/python3.10/site-packages
+env/Lib/site-packages
+env/Scripts/
+env/pyvenv
+# Local secrets and credentials
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Local databases, logs, and uploaded files
+*.sqlite3
+*.db
+*.log
+media/
+uploads/
+static/assets/uploads/
+
+# Large generated machine-learning artifacts
+*.h5
+*.pt
+*.pth
+*.onnx
